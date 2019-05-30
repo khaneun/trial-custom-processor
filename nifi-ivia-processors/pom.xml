@@ -51,5 +51,18 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- Add ListFTPviaS -->
+        <dependency>
+            <groupId>org.apache.nifi</groupId>
+            <artifactId>nifi-standard-processors</artifactId>
+			<version>1.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.nifi</groupId>
+            <artifactId>nifi-distributed-cache-client-service-api</artifactId>
+			<version>1.9.2</version>
+            <scope>provided</scope>
+        </dependency>
+    	<!-- End ListFTPviaS -->
     </dependencies>
 </project>
